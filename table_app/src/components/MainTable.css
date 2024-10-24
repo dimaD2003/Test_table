@@ -1,0 +1,140 @@
+.container {
+    overflow-x: auto;
+    margin: 20px 80px 20px 90px;
+    position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+left: 76px;
+font-size: 14px;
+color: #404040;
+font-weight: 400;
+border: 1px solid #E5E5EA;
+border-radius: 0.5rem;
+
+     /* Горизонтальный скролл */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tbody{
+    text-align: right;
+  }
+  thead th {
+    background-color: #f1f1f1;
+    padding: 30px 15px;
+    color: #404040; 
+    font-size: 14px;
+}
+
+
+tbody td:nth-child(2){
+    border-left: none !important;
+}
+  tbody td:nth-child(2){
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 200px;
+    width: 250px;
+    border-right: none !important;
+    
+  
+ }
+ td:nth-child(3){
+   /* Задаем желаемую ширину */
+border-left: none;    
+  
+ }
+ tbody td:nth-child(1){
+  /* Задаем желаемую ширину */
+    border-right: none ;
+    border-left: none ;
+  
+ }
+ tbody td:first-child {
+    width: 40px;
+  }
+
+
+
+  tbody td {
+    padding: 0px 20px 0 50px;
+    border: 1px solid #ddd;
+  }
+  
+
+
+/* date */
+.date-cell {
+    display: flex;
+    align-items: center; 
+    flex-direction: row; 
+  }
+  .date-cell p{
+   padding-left: 60px;
+  }
+  .date-cell .number {
+    font-size: 24px; 
+    position: relative; 
+  }
+  
+
+  .date-cell .number .sup {
+    position: absolute;
+    top: -10px; 
+    right: -25px;
+    font-size: 12px;
+  }
+
+  .date-cell .details {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  .date-cell .details li{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.718);
+  }
+
+
+  .sup.red {
+    color: red;
+}
+
+.sup.green {
+    color: green;
+}
+
+.cols.red{
+  background: rgba(246, 117, 117, 0.467);
+}
+
+.cols.green{
+    background: rgba(111, 250, 146, 0.467);
+  }
+  .cols.blue{
+    background: rgba(111, 194, 250, 0.467);
+  }
+
+  .cols.gray{
+    background: #F7F7F7
+  }
+
+
+ 
+ 
+  .summary-row {
+    display: 'flex';
+     flex-wrap:nowrap;
+    background-color: #f9f9f9;
+    border: none; /* Убираем границы */
+  }
+  .summary-row td {
+    border: none;
+    text-align: center;
+   
+  }
+
+  td>p {
+    color: rgba(0, 0, 0, 0.366);
+  }
+

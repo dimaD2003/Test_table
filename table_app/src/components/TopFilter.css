@@ -1,0 +1,123 @@
+.search-panel {
+    margin: 0px 80px 0px 90px;
+    position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+    left: 76px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .search-panel__container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+
+  }
+
+  .left_search{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+  }
+
+  .right_search {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    margin-right: 30px;
+  }
+  .search-input-container {
+    position: relative;
+    flex-grow: 0.01;
+  }
+  .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    
+  }
+  .search-input {
+    width: 50%;
+    padding: 8px 30px 8px 150px;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+  }
+
+  
+
+  /* data */
+  .date-input-container {
+    position: relative;
+    min-width: 200px;
+  } 
+  .calendar-popup {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+
+  .date-input::after {
+    content: '\25BC'; /* Unicode для треугольника вверх */
+    display: inline;
+    position: absolute;
+    left: 32.5%;
+    top: 38%;
+    color: #9ca3af;
+    font-size: 10px;
+    cursor: pointer;
+    }
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: none;
+    background: transparent;
+    border-radius: 0.5rem;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .icon-button:hover {
+    background-color: #f3f4f6;
+  }
+  .vertical-divider {
+    width: 1px;
+    height: 2rem;
+    background-color: #e5e7eb;
+    margin: 0 0.5rem;
+  }
+  
+
+  .reset-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: transparent;
+    border-radius: 0.5rem;
+    color: #1366BF;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .reset-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  
