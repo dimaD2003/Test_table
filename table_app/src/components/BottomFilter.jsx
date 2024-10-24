@@ -16,11 +16,7 @@ const BottomFilter = () => {
 
 
 
-clearIndicator: (provided) => ({
-...provided,
-color: 'black',
-// Add more custom styles here
-}),
+
 
 option: (provided, state) => ({
 ...provided,
@@ -47,7 +43,6 @@ const options = myOpt.map(i => ({
 
       <div className="right-section">
       <Select
-            id="ReposSelect"
             options={options}
             styles={customStyles}
         />
