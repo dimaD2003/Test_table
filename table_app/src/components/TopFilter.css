@@ -71,16 +71,7 @@
   }
 
 
-  .date-input::after {
-    content: '\25BC'; /* Unicode для треугольника вверх */
-    display: inline;
-    position: absolute;
-    left: 32.5%;
-    top: 38%;
-    color: #9ca3af;
-    font-size: 10px;
-    cursor: pointer;
-    }
+ 
 .icon-button {
     display: flex;
     align-items: center;
@@ -93,6 +84,7 @@
     cursor: pointer;
     transition: all 0.2s;
   }
+
 
   .icon-button:hover {
     background-color: #f3f4f6;

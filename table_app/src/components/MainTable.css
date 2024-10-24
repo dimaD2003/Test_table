@@ -20,10 +20,30 @@ border-radius: 0.5rem;
     text-align: right;
   }
   thead th {
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
     background-color: #f1f1f1;
-    padding: 30px 15px;
+    padding: 30px 10px;
     color: #404040; 
     font-size: 14px;
+}
+thead th:nth-child(1)::after {
+  content: '';
+  
+}
+thead th:nth-child(1){
+  padding-left: 35px;
+  
+}
+
+thead th::after {
+  content: '\25B2';
+  padding: 0 5px 0 15px;
+  display: inline;
+color: #8e8f92;
+    font-size: 8px;
+
 }
 
 
@@ -127,6 +147,11 @@ border-left: none;
      flex-wrap:nowrap;
     background-color: #f9f9f9;
     border: none; /* Убираем границы */
+  }
+
+  .summary-row td:nth-child(2)
+  {
+    padding-right: 11px;
   }
   .summary-row td {
     border: none;

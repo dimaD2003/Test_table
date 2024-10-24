@@ -10,15 +10,15 @@ return (<div className="container">
         <thead>
         <tr>
             <th><input type="checkbox" /> </th>
-          <th>Ключевые слова  &#9650;</th>
-          <th>Позиция &#9650; </th>
-          <th>Клики &#9650; </th>
-          <th>CTR  &#9650;</th>
-          <th>Показы &#9650; </th>
-          <th>Спрос &#9650; </th>
-          <th style={{padding:'0 50px', }}>01.10.2024 &#9650; </th>
-          <th>02.10.2024 &#9650; </th>
-          <th>03.10.2024 &#9650; </th>
+          <th>Ключевые слова  </th>
+          <th>Позиция  </th>
+          <th>Клики  </th>
+          <th>CTR </th>
+          <th>Показы  </th>
+          <th>Спрос  </th>
+          <th style={{padding:'0 50px', }}>01.10.2024 </th>
+          <th>02.10.2024  </th>
+          <th>03.10.2024  </th>
           <th>04.10.2024 &#9650; </th>
           <th>05.10.2024 &#9650; </th>
           <th>06.10.2024 &#9650; </th>
@@ -146,7 +146,7 @@ return (<div className="container">
         ))}
         <tr className="summary-row">
             <td></td>
-            <td style={{    paddingRight: '11px;'}}>Всего слов: 300</td>
+            <td >Всего слов: 300</td>
             <td> 14500</td>
             <td>14500</td>
             <td>20.01%</td>
